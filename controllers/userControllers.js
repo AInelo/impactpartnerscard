@@ -1,8 +1,10 @@
 // models/utilisateur.js
-
 const pool = require("../db/connexionDb"); // Importez votre connexion à la base de données
 
 class User {
+  
+//  static String nom;
+
   constructor(id, nom, email) {
     this.id = id;
     this.nom = nom;
