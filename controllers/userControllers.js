@@ -11,6 +11,7 @@ class User {
     this.email = email;
   }
 
+  
   static async tousLesUsers() {
     const query = "SELECT * FROM Users";
     try {
